@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Context>
+
+	<Resource 
+	    name="jdbc/mysql" 
+	    auth="Container"
+		type="javax.sql.DataSource" 
+		username="USERNAME" 
+		password="PASSWORD"
+		driverClassName="com.mysql.jdbc.Driver" 
+		url="jdbc:mysql://HOST:PORT/codealley?autoReconnect=true"
+		validationQuery="select 1"
+		maxActive="15" maxIdle="3" />
+
+</Context>
